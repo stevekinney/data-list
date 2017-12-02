@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import data from '../public/data.json';
 
 import Application from './components/Application';
 

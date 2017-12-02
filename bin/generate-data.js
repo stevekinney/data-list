@@ -3,8 +3,6 @@ const path = require('path');
 const faker = require('faker');
 const uniqueId = require('lodash/uniqueId');
 
-const destination = path.join(__dirname, '..', 'public', 'data.json');
-
 const data = [];
 
 for (let i = 0; i < 1000; i++) {
@@ -23,4 +21,5 @@ for (let i = 0; i < 1000; i++) {
   data.push(item);
 }
 
-fs.writeFileSync(destination, JSON.stringify(data));
+fs.writeFileSync(path.join(__dirname, '..', 'public', 'data.json'), JSON.stringify(data));
+fs.writeFileSync(path.join(__dirname, '..', 'src', 'data.json'), JSON.stringify(data));

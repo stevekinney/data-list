@@ -49,10 +49,6 @@ table {
   width: 100%;
 }
 
-td {
-  text-align: center;
-}
-
 .Application {
   margin: auto;
   max-width: 600px;
