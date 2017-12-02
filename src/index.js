@@ -5,4 +5,4 @@ import Application from './components/Application';
 
 import './index.css';
 
-ReactDOM.render(<Application data={data} />, document.getElementById('root'));
+ReactDOM.render(<Application />, document.getElementById('root'));

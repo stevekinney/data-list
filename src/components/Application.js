@@ -9,6 +9,19 @@ export default class Application extends Component {
     return (
       <div className="Application">
         <h1>Company Directory</h1>
+        <table>
+          <thead />
+          <tbody>
+            {this.state.data.map(datum => (
+              <tr>
+                {Object.keys(datum).map(column => (
+                  <td>{datum[column]}</td>
+                 ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
       </div>
     );
   }
