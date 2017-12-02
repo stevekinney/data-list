@@ -3,7 +3,7 @@ const path = require('path');
 const faker = require('faker');
 const uniqueId = require('lodash/uniqueId');
 
-const destination = path.join(__dirname, '..', 'src', 'data.json');
+const destination = path.join(__dirname, '..', 'public', 'data.json');
 
 const data = [];
 
