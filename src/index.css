@@ -47,9 +47,20 @@ button.full-width, .button.full-width, input[type="submit"].full-width {
 
 table {
   width: 100%;
+  overflow-x: scroll;
 }
 
 .Application {
   margin: auto;
   max-width: 600px;
+}
+
+.Filter {
+  border: 1px solid #d0dbe2;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+
+.Filter input {
+  width: 100%;
 }
